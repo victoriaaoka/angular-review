@@ -3,3 +3,10 @@
 <div class="play-container">
     <p>You've clicked <button (click)="countClick()">this</button> {{ clickCounter }} times.</p>
 </div>
+
+<div class="play-container">
+    <p>
+        <input type="text" [(ngModel)]="name"><br>
+        <strong>You said: </strong> {{ name }}
+    </p>
+</div>
